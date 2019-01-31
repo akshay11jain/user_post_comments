@@ -8,6 +8,8 @@ class User(models.Model):
     token = models.CharField(max_length = 150)
     def __str__(self):
         return self.name
+    class Meta:
+        verbose_name_plural = "User"
 
 class Post(models.Model):
     post_Id = models.AutoField(primary_key = True)
@@ -16,6 +18,8 @@ class Post(models.Model):
     post_description = models.CharField(max_length = 500)
     def __str__(self):
         return self.post_title
+    class Meta:
+        verbose_name_plural = "post"
 
 class Comments(models.Model):
     comment_Id = models.AutoField(primary_key = True)
@@ -24,3 +28,5 @@ class Comments(models.Model):
     comment = models.CharField(max_length = 200)
     def __str__(self):
         return self.post.post_title
+    class Meta:
+        verbose_name_plural = "Comment"
