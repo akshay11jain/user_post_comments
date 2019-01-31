@@ -19,6 +19,7 @@ class Post(models.Model):
 
 class Comments(models.Model):
     comment_Id = models.AutoField(primary_key = True)
+    user = models.ForeignKey(User, on_delete = models.CASCADE)
     post = models.ForeignKey(Post,on_delete=models.CASCADE)
     comment = models.CharField(max_length = 200)
     def __str__(self):

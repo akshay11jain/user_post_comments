@@ -14,4 +14,4 @@ class PostSerializer (serializers.HyperlinkedModelSerializer):
 class CommentsSerializer (serializers.HyperlinkedModelSerializer):
     class Meta:
         model=Comments
-        fields = ('comment_Id','post' , 'comment')
+        fields = ('comment_Id','user','post' , 'comment')
