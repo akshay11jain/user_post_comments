@@ -25,9 +25,6 @@ sudo apt-get update
 
 sudo apt-get install python3.6
 
-
-In case any problem with installing python 3.6.2, refer this link
-
 -------------------------------
 Make Virtual Environment - MUST
 -------------------------------
