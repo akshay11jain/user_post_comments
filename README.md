@@ -19,7 +19,9 @@ Install Python 3.6.2
 Run the following command in order :
 ------------------------------------
 sudo add-apt-repository ppa:jonathonf/python-3.6
+
 sudo apt-get update
+
 sudo apt-get install python3.6
 
 
@@ -40,8 +42,11 @@ source author/bin/activate
 Clone the repository inside the author directory
 ------------------------------------------------
 cd author
+
 git clone https://github.com/akshay11jain/user_post_comments.git
+
 cd user_post_comments
+
 pip install -r requirements.txt
 
 
