@@ -1,4 +1,4 @@
-from django.urls import include,path
+from django.conf.urls import include,url
 from rest_framework import routers
 from . import views
 
@@ -10,6 +10,6 @@ router.register('comments',views.CommentsView)
 
 urlpatterns = [
 
-        path('',include(router.urls)),
-        path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+        url('',include(router.urls)),
+        url('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
