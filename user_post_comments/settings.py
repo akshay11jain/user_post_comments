@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'user_post_comments.wsgi.application'
 DATABASES = {
     
     'default' : {
-            'ENGINE' : 'django.db.backends.mysql',
-            'NAME' :  'DATABASE_NAME', 
-            'USER': 'DATABASE_USER',
-            'PASSWORD' : 'DATABASE_PASSWORD',
+            'ENGINE' : 'django.db.backends.postgresql',
+            'NAME' :  'apc_local', 
+            'USER': 'akshay11jain',
+            'PASSWORD' : 'akshay11jain',
             'HOST' : 'localhost',
             'PORT' : ''          
 
