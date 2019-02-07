@@ -4,6 +4,7 @@ Python Version 3.6.2
 
 Django Version 1.11.3
 
+postgresql version 10.6
 ---------------
 Getting Started
 ---------------
@@ -51,17 +52,8 @@ pip install -r requirements.txt
 --------------
 Database Setup
 --------------
-Refer this link for xampp setup on linux :
-https://www.wikihow.com/Install-XAMPP-on-Linux
 
-After following the link, check the apache running port and run the localhost on that port.
-
-Open phpMyAdmin
-
-Create a new Database 
-
-Use a default user from the User Accounts or create a new User.
-
+Refer this link for Database Setup.
 Update the user_post_comments/settings.py with the DB credentials.
 
 -----------------------------
