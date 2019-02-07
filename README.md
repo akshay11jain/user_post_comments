@@ -5,6 +5,7 @@ Python Version 3.6.2
 Django Version 1.11.3
 
 postgresql version 10.6
+
 ---------------
 Getting Started
 ---------------
@@ -53,7 +54,8 @@ pip install -r requirements.txt
 Database Setup
 --------------
 
-Refer this link for Database Setup.
+Refer https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04 
+for Database Setup.
 Update the user_post_comments/settings.py with the DB credentials.
 
 -----------------------------
